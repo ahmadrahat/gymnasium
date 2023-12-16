@@ -1,0 +1,157 @@
+/* extra small device */
+
+@media (max-width:575px){
+    .navbar .navbar-brand {
+        position: static;
+        padding: 0 16px;
+        transform: skew(0);
+    }
+    .navbar .navbar-brand img {
+        transform: skew(0);
+    }
+    .navbar .navbar-toggler{
+        border-color: none;
+    }
+    .navbar .navbar-toggler span{
+        color: white;
+    }
+    .navbar .navbar-nav{
+        background: rgba(247, 242, 242, 0.7);
+    }
+    .navbar-collapse .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        color: rgb(218, 69, 69);
+    }
+    .slider-item{
+        padding-top: 180px;
+        padding-bottom: 85px;
+    }
+
+    #banner .bg1 .banner-text::before,#banner .bg1 .banner-text::after,#banner .bg1 .banner-text h2::before,#banner .bg1 .banner-text h2::after,#banner .bg1 .banner-text h1::before,#banner .bg1 .banner-text h1::after
+    {
+        display: none;
+    }
+    #about{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } 
+    #about .about-video{
+        margin-top: 20px;
+    } 
+    #plan .pricing{
+        margin-top: 20px;
+    }
+    #hati{
+        display: block;
+    }
+    #team .team-content .team-member .card{
+        margin-left: 50px;
+    }
+    #plan .pricing{
+        margin-left: 35px;
+    }
+    #class .class-head .nav-tabs .nav-item {
+        width: 31%;
+        margin-right: 6px;
+        margin-bottom: 6px;
+    }
+    #class .tab-content .tab-pane ul li {
+        width: 32.8% !important;
+        margin: 0.2243% !important;
+    }
+    #footer .footer-overlay .footer-logo {
+        text-align: center;
+    }
+    #footer .footer-item .photo li {
+        margin-right: 3px;
+        margin-bottom: 3px;
+        width: 23%;
+    }
+}
+/* extra small device */
+
+/* small device */
+@media (min-width:576px) and (max-width:767px){
+    .navbar .navbar-brand {
+        position: static;
+        padding: 0 18px;
+        transform: skew(0);
+    }
+    .navbar .navbar-brand img {
+        transform: skew(0);
+    }
+    .navbar .navbar-toggler{
+        border-color: none;
+    }
+    .navbar .navbar-toggler span{
+        color: white;
+    }
+    .navbar .navbar-nav{
+        background: rgba(247, 242, 242, 0.7);
+    }
+    .navbar-collapse .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        color: rgb(218, 69, 69);
+    }
+    .slider-item{
+        padding-top: 180px;
+        padding-bottom: 85px;
+    }
+    #about{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } 
+    #about .about-video{
+        margin-top: 20px;
+    } 
+    #plan .pricing{
+        margin-top: 20px;
+    }
+    #hati{
+        display: block;
+    }
+    #class .class-head .nav-tabs .nav-item {
+        width: 31%;
+        margin-right: 6px;
+        margin-bottom: 6px;
+    }
+    #class .tab-content .tab-pane ul li {
+        width: 32.8% !important;
+        margin: 0.2243% !important;
+    }
+    #footer .footer-overlay .footer-logo {
+        text-align: center;
+    }
+    #footer .footer-item .photo li {
+        margin-right: 3px;
+        margin-bottom: 3px;
+        width: 23%;
+    }
+}
+/* small device */
+
+/* medium device */
+@media (min-width:767px) and (max-width:991px){
+    .navbar .navbar-brand {
+        position: static;
+        padding: 0 18px;
+        transform: skew(0);
+    }
+    .navbar .navbar-brand img {
+        transform: skew(0);
+    }
+    .navbar .navbar-toggler{
+        border-color: none;
+    }
+    .navbar .navbar-toggler span{
+        color: white;
+    }
+    .navbar .navbar-nav{
+        background: rgba(247, 242, 242, 0.7);
+    }
+    .navbar-collapse .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        color: rgb(218, 69, 69);
+    }
+}
+/* medium device */
